@@ -1,0 +1,28 @@
+05. git clone https://github.com/gabriela-jovanovska/SI_2023_lab1_173147.git
+06.*changing the README file*
+git add .
+git commit -m "Initial commit"
+git push
+07.*Adding .java file*
+git add .
+git commit -m "Add java class"
+git push
+09. *Creating branches*
+git branch bug1
+git branch bug2
+git branch bug3
+10. *Switching to new branch*
+git checkout bug1
+11.fix the bug, git add. git commit -m ""Fix wrong loop for reading"", git push
+12. git checkout bug2
+13. git add.,git commit -m "Fix wrong condition in filterOddNumbers", git push
+14. git checkout bug3
+15. git add . , git commit -m "Fix method sumEvenNumbers", git push
+17. git checkout master
+18. git merge bug1
+20. git merge bug2
+22. git checkout bug3
+23. git rebase master
+24. git checkout master
+25. git merge bug3
+27. 

@@ -1,0 +1,29 @@
+git clone https://github.com/gabriela-jovanovska/SI_2023_lab1_173147.git
+git add .
+git commit -m "Initial commit"
+git push
+git add .
+git commit -m "Add java class"
+git push
+
+git branch bug1
+git branch bug2
+git branch bug3
+git checkout bug1
+git add . 
+git commit -m "Fix wrong loop for reading"
+git push
+ git checkout bug2
+git add . 
+git commit -m "Fix wrong condition in filterOddNumbers"
+git push
+git checkout bug3
+git add . 
+git commit -m "Fix method sumEvenNumbers"
+git pushgit checkout master
+git merge bug1
+git merge bug2
+git checkout bug3
+git rebase master
+git checkout master
+git merge bug3
